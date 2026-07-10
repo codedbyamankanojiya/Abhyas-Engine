@@ -1,0 +1,844 @@
+{
+  "roles": [
+    {
+      "id": "software-engineer",
+      "title": "Software Engineer",
+      "description": "Full-stack development, system design, and coding best practices",
+      "tags": ["Programming", "System Design", "Algorithms"],
+      "questions": [
+        {
+          "id": "se-1",
+          "question": "Tell me about yourself and your experience in software development.",
+          "level": "Beginner",
+          "type": "behavioral",
+          "keyPoints": ["Professional introduction", "Experience overview", "Career highlights"]
+        },
+        {
+          "id": "se-2",
+          "question": "What programming languages are you most comfortable with and why?",
+          "level": "Beginner",
+          "type": "technical",
+          "keyPoints": ["Language proficiency", "Technical preferences", "Reasoning skills"]
+        },
+        {
+          "id": "se-3",
+          "question": "Describe a challenging project you worked on and how you overcame obstacles.",
+          "level": "Intermediate",
+          "type": "behavioral",
+          "keyPoints": ["Problem-solving", "Project management", "Technical challenges", "Solutions implemented"]
+        },
+        {
+          "id": "se-4",
+          "question": "How do you approach debugging complex issues in your code?",
+          "level": "Intermediate",
+          "type": "technical",
+          "keyPoints": ["Debugging methodology", "Systematic approach", "Tools and techniques", "Code review process"]
+        },
+        {
+          "id": "se-5",
+          "question": "What strategies do you use for staying current with new technologies?",
+          "level": "Advanced",
+          "type": "behavioral",
+          "keyPoints": ["Continuous learning", "Technology trends", "Skill development", "Industry engagement"]
+        },
+        {
+          "id": "se-6",
+          "question": "Explain your experience with system design and architecture.",
+          "level": "Advanced",
+          "type": "technical",
+          "keyPoints": ["System architecture", "Scalability", "Design patterns", "Performance optimization"]
+        }
+      ]
+    },
+    {
+      "id": "web-developer",
+      "title": "Web Developer",
+      "description": "Frontend and backend web development, modern frameworks",
+      "tags": ["HTML/CSS", "JavaScript", "React", "Node.js"],
+      "questions": [
+        {
+          "id": "wd-1",
+          "question": "What's the difference between frontend and backend development?",
+          "level": "Beginner",
+          "type": "technical",
+          "keyPoints": ["Frontend vs backend", "Client-server architecture", "API concepts", "Development roles"]
+        },
+        {
+          "id": "wd-2",
+          "question": "How do you ensure web accessibility in your projects?",
+          "level": "Beginner",
+          "type": "behavioral",
+          "keyPoints": ["Accessibility standards", "WCAG compliance", "Inclusive design", "Testing methods"]
+        },
+        {
+          "id": "wd-3",
+          "question": "Explain the box model in CSS and how it works.",
+          "level": "Intermediate",
+          "type": "technical",
+          "keyPoints": ["CSS box model", "Layout properties", "Positioning", "Margin and padding"]
+        },
+        {
+          "id": "wd-4",
+          "question": "How do you optimize web application performance?",
+          "level": "Intermediate",
+          "type": "technical",
+          "keyPoints": ["Performance metrics", "Optimization techniques", "Caching strategies", "Code splitting"]
+        },
+        {
+          "id": "wd-5",
+          "question": "What are your thoughts on modern JavaScript frameworks?",
+          "level": "Advanced",
+          "type": "behavioral",
+          "keyPoints": ["Framework comparison", "React/Vue/Angular", "State management", "Build tools"]
+        },
+        {
+          "id": "wd-6",
+          "question": "Describe your experience with responsive design and mobile-first approach.",
+          "level": "Advanced",
+          "type": "technical",
+          "keyPoints": ["Responsive design", "Mobile optimization", "Progressive enhancement", "Cross-browser compatibility"]
+        }
+      ]
+    },
+    {
+      "id": "backend-developer",
+      "title": "Backend Developer",
+      "description": "Server-side development, databases, API design",
+      "tags": ["APIs", "Databases", "Server", "Architecture"],
+      "questions": [
+        {
+          "id": "bd-1",
+          "question": "What's the difference between SQL and NoSQL databases?",
+          "level": "Beginner",
+          "type": "technical",
+          "keyPoints": ["Database types", "Query languages", "Data modeling", "Use cases"]
+        },
+        {
+          "id": "bd-2",
+          "question": "How do you handle API authentication and authorization?",
+          "level": "Beginner",
+          "type": "technical",
+          "keyPoints": ["Authentication methods", "Security practices", "Token management", "OAuth/JWT"]
+        },
+        {
+          "id": "bd-3",
+          "question": "Explain RESTful API principles and best practices.",
+          "level": "Intermediate",
+          "type": "technical",
+          "keyPoints": ["REST principles", "HTTP methods", "API design", "Error handling"]
+        },
+        {
+          "id": "bd-4",
+          "question": "How do you ensure database security and prevent SQL injection?",
+          "level": "Intermediate",
+          "type": "technical",
+          "keyPoints": ["Security practices", "SQL injection prevention", "Input validation", "Encryption", "Access control"]
+        },
+        {
+          "id": "bd-5",
+          "question": "Describe your experience with microservices architecture.",
+          "level": "Advanced",
+          "type": "behavioral",
+          "keyPoints": ["Service decomposition", "Inter-service communication", "Scalability", "Distributed systems"]
+        },
+        {
+          "id": "bd-6",
+          "question": "How do you handle database migrations and schema changes?",
+          "level": "Advanced",
+          "type": "technical",
+          "keyPoints": ["Migration strategies", "Version control", "Data integrity", "Rollback procedures"]
+        }
+      ]
+    },
+    {
+      "id": "ui-ux-designer",
+      "title": "UI/UX Designer",
+      "description": "User interface design, user experience, design systems",
+      "tags": ["Design", "User Research", "Prototyping"],
+      "questions": [
+        {
+          "id": "ux-1",
+          "question": "What's the difference between UI and UX design?",
+          "level": "Beginner",
+          "type": "technical",
+          "keyPoints": ["UI vs UX", "User interface", "User experience", "Design principles"]
+        },
+        {
+          "id": "ux-2",
+          "question": "How do you conduct user research and gather feedback?",
+          "level": "Beginner",
+          "type": "behavioral",
+          "keyPoints": ["User research methods", "Feedback collection", "User interviews", "Usability testing"]
+        },
+        {
+          "id": "ux-3",
+          "question": "Explain the importance of design systems and component libraries.",
+          "level": "Intermediate",
+          "type": "technical",
+          "keyPoints": ["Design systems", "Component architecture", "Consistency", "Scalability"]
+        },
+        {
+          "id": "ux-4",
+          "question": "How do you balance aesthetics with functionality in design?",
+          "level": "Intermediate",
+          "type": "behavioral",
+          "keyPoints": ["Design trade-offs", "User needs", "Business requirements", "Technical constraints"]
+        },
+        {
+          "id": "ux-5",
+          "question": "Describe your experience with accessibility standards (WCAG).",
+          "level": "Advanced",
+          "type": "technical",
+          "keyPoints": ["WCAG compliance", "Accessibility guidelines", "Inclusive design", "Screen readers", "Color contrast"]
+        },
+        {
+          "id": "ux-6",
+          "question": "How do you approach creating design prototypes and user testing?",
+          "level": "Advanced",
+          "type": "behavioral",
+          "keyPoints": ["Prototyping methods", "User testing approaches", "Iterative design", "Feedback integration"]
+        }
+      ]
+    },
+    {
+      "id": "app-developer",
+      "title": "Mobile App Developer",
+      "description": "iOS and Android app development, cross-platform solutions",
+      "tags": ["Mobile", "React Native", "Flutter"],
+      "questions": [
+        {
+          "id": "ad-1",
+          "question": "What's the difference between native and cross-platform development?",
+          "level": "Beginner",
+          "type": "technical",
+          "keyPoints": ["Native vs cross-platform", "Performance considerations", "Platform APIs", "Development trade-offs"]
+        },
+        {
+          "id": "ad-2",
+          "question": "How do you handle mobile app performance optimization?",
+          "level": "Beginner",
+          "type": "technical",
+          "keyPoints": ["Performance monitoring", "Memory management", "Battery optimization", "Network efficiency"]
+        },
+        {
+          "id": "ad-3",
+          "question": "Explain mobile app lifecycle and state management.",
+          "level": "Intermediate",
+          "type": "technical",
+          "keyPoints": ["App lifecycle", "State management", "Component lifecycle", "Data persistence"]
+        },
+        {
+          "id": "ad-4",
+          "question": "How do you handle offline functionality in mobile apps?",
+          "level": "Intermediate",
+          "type": "technical",
+          "keyPoints": ["Offline storage", "Data synchronization", "Cache strategies", "Network resilience"]
+        },
+        {
+          "id": "ad-5",
+          "question": "Describe your experience with mobile app security best practices.",
+          "level": "Advanced",
+          "type": "behavioral",
+          "keyPoints": ["Security practices", "Data protection", "Authentication", "Code obfuscation"]
+        },
+        {
+          "id": "ad-6",
+          "question": "How do you approach mobile app testing and quality assurance?",
+          "level": "Advanced",
+          "type": "technical",
+          "keyPoints": ["Testing strategies", "QA methodologies", "Automated testing", "Device compatibility", "Performance testing"]
+        }
+      ]
+    },
+    {
+      "id": "devops-engineer",
+      "title": "DevOps Engineer",
+      "description": "CI/CD, cloud infrastructure, deployment automation",
+      "tags": ["Cloud", "Docker", "Kubernetes", "CI/CD"],
+      "questions": [
+        {
+          "id": "de-1",
+          "question": "What is DevOps and why is it important?",
+          "level": "Beginner",
+          "type": "behavioral",
+          "keyPoints": ["DevOps culture", "Collaboration", "Automation benefits", "Team efficiency"]
+        },
+        {
+          "id": "de-2",
+          "question": "Explain the difference between CI and CD.",
+          "level": "Beginner",
+          "type": "technical",
+          "keyPoints": ["Continuous Integration", "Continuous Deployment", "Pipeline automation", "Build processes"]
+        },
+        {
+          "id": "de-3",
+          "question": "How do you implement containerization with Docker?",
+          "level": "Intermediate",
+          "type": "technical",
+          "keyPoints": ["Container concepts", "Docker benefits", "Microservices", "Orchestration", "Environment management"]
+        },
+        {
+          "id": "de-4",
+          "question": "Describe your experience with infrastructure as code (IaC).",
+          "level": "Intermediate",
+          "type": "behavioral",
+          "keyPoints": ["Cloud services", "Cost optimization", "Scalability", "Security practices", "Monitoring strategies"]
+        },
+        {
+          "id": "de-5",
+          "question": "How do you handle monitoring and logging in production systems?",
+          "level": "Advanced",
+          "type": "technical",
+          "keyPoints": ["Monitoring tools", "Log aggregation", "Alert systems", "Performance metrics", "Incident response"]
+        },
+        {
+          "id": "de-6",
+          "question": "Explain Kubernetes architecture and its benefits.",
+          "level": "Advanced",
+          "type": "technical",
+          "keyPoints": ["Container orchestration", "Service discovery", "Load balancing", "Auto-scaling", "Rolling updates", "High availability"]
+        }
+      ]
+    },
+    {
+      "id": "data-scientist",
+      "title": "Data Scientist",
+      "description": "Machine learning, data analysis, statistical modeling",
+      "tags": ["Python", "Machine Learning", "Statistics"],
+      "questions": [
+        {
+          "id": "ds-1",
+          "question": "What's the difference between supervised and unsupervised learning?",
+          "level": "Beginner",
+          "type": "technical",
+          "keyPoints": ["Learning paradigms", "Training data", "Model types", "Use cases", "Advantages/limitations"]
+        },
+        {
+          "id": "ds-2",
+          "question": "How do you handle missing data in datasets?",
+          "level": "Beginner",
+          "type": "technical",
+          "keyPoints": ["Data cleaning", "Imputation methods", "Outlier detection", "Feature engineering", "Data quality"]
+        },
+        {
+          "id": "ds-3",
+          "question": "Explain bias-variance tradeoff in machine learning.",
+          "level": "Intermediate",
+          "type": "technical",
+          "keyPoints": ["Bias definition", "Variance concept", "Trade-off explanation", "Model complexity", "Regularization techniques"]
+        },
+        {
+          "id": "ds-4",
+          "question": "How do you evaluate the performance of a machine learning model?",
+          "level": "Intermediate",
+          "type": "technical",
+          "keyPoints": ["Evaluation metrics", "Cross-validation", "Test sets", "Model selection", "Performance benchmarks"]
+        },
+        {
+          "id": "ds-5",
+          "question": "Describe your experience with deep learning and neural networks.",
+          "level": "Advanced",
+          "type": "behavioral",
+          "keyPoints": ["Neural architectures", "Deep learning frameworks", "Training strategies", "Model optimization", "Research experience"]
+        },
+        {
+          "id": "ds-6",
+          "question": "How do you handle feature engineering and selection?",
+          "level": "Advanced",
+          "type": "technical",
+          "keyPoints": ["Feature extraction", "Dimensionality reduction", "Feature selection", "Model interpretability", "Feature importance"]
+        }
+      ]
+    },
+    {
+      "id": "product-manager",
+      "title": "Product Manager",
+      "description": "Product strategy, roadmap planning, stakeholder management",
+      "tags": ["Strategy", "Analytics", "Leadership"],
+      "questions": [
+        {
+          "id": "pm-1",
+          "question": "What does a product manager do on a daily basis?",
+          "level": "Beginner",
+          "type": "behavioral"
+        },
+        {
+          "id": "pm-2",
+          "question": "How do you prioritize features in a product roadmap?",
+          "level": "Beginner",
+          "type": "behavioral"
+        },
+        {
+          "id": "pm-3",
+          "question": "Explain how you conduct user research and gather requirements.",
+          "level": "Intermediate",
+          "type": "behavioral"
+        },
+        {
+          "id": "pm-4",
+          "question": "How do you work with engineering teams and stakeholders?",
+          "level": "Intermediate",
+          "type": "behavioral"
+        },
+        {
+          "id": "pm-5",
+          "question": "Describe your experience with product metrics and analytics.",
+          "level": "Advanced",
+          "type": "technical"
+        },
+        {
+          "id": "pm-6",
+          "question": "How do you handle product launches and go-to-market strategies?",
+          "level": "Advanced",
+          "type": "behavioral"
+        }
+      ]
+    },
+    {
+      "id": "hr-recruiter",
+      "title": "HR Recruiter",
+      "description": "Talent acquisition, interview techniques, candidate evaluation",
+      "tags": ["Recruiting", "Interviewing", "HR"],
+      "questions": [
+        {
+          "id": "hr-1",
+          "question": "What's your approach to sourcing and attracting candidates?",
+          "level": "Beginner",
+          "type": "behavioral"
+        },
+        {
+          "id": "hr-2",
+          "question": "How do you evaluate cultural fit during interviews?",
+          "level": "Beginner",
+          "type": "behavioral"
+        },
+        {
+          "id": "hr-3",
+          "question": "Explain different interview techniques and when to use them.",
+          "level": "Intermediate",
+          "type": "technical"
+        },
+        {
+          "id": "hr-4",
+          "question": "How do you handle candidate experience and communication?",
+          "level": "Intermediate",
+          "type": "behavioral"
+        },
+        {
+          "id": "hr-5",
+          "question": "Describe your experience with diversity and inclusion initiatives.",
+          "level": "Advanced",
+          "type": "behavioral"
+        },
+        {
+          "id": "hr-6",
+          "question": "How do you use data and analytics in recruitment?",
+          "level": "Advanced",
+          "type": "technical"
+        }
+      ]
+    },
+    {
+      "id": "behavioral-upskilling",
+      "title": "Behavioral Upskilling",
+      "description": "Improve workplace behavior, professional conduct, and soft skills",
+      "tags": ["Soft Skills", "Professionalism", "Communication"],
+      "questions": [
+        {
+          "id": "bu-1",
+          "question": "How do you handle conflicts with colleagues?",
+          "level": "Beginner",
+          "type": "behavioral"
+        },
+        {
+          "id": "bu-2",
+          "question": "What strategies do you use for effective teamwork?",
+          "level": "Beginner",
+          "type": "behavioral"
+        },
+        {
+          "id": "bu-3",
+          "question": "How do you give and receive constructive feedback?",
+          "level": "Intermediate",
+          "type": "behavioral"
+        },
+        {
+          "id": "bu-4",
+          "question": "Describe your approach to professional development.",
+          "level": "Intermediate",
+          "type": "behavioral"
+        },
+        {
+          "id": "bu-5",
+          "question": "How do you handle workplace stress and pressure?",
+          "level": "Advanced",
+          "type": "behavioral"
+        },
+        {
+          "id": "bu-6",
+          "question": "What's your approach to building professional relationships?",
+          "level": "Advanced",
+          "type": "behavioral"
+        }
+      ]
+    },
+    {
+      "id": "presentation-skills",
+      "title": "Presentation Skills",
+      "description": "Public speaking, presentation delivery, audience engagement",
+      "tags": ["Public Speaking", "Communication", "Confidence"],
+      "questions": [
+        {
+          "id": "ps-1",
+          "question": "How do you prepare for an important presentation?",
+          "level": "Beginner",
+          "type": "behavioral",
+          "keyPoints": ["Research audience", "Content structure", "Practice delivery", "Visual aids preparation"]
+        },
+        {
+          "id": "ps-2",
+          "question": "What techniques do you use to engage your audience?",
+          "level": "Beginner",
+          "type": "behavioral",
+          "keyPoints": ["Storytelling", "Interactive questions", "Visual aids", "Audience adaptation", "Body language"]
+        },
+        {
+          "id": "ps-3",
+          "question": "How do you handle nervousness before public speaking?",
+          "level": "Intermediate",
+          "type": "behavioral",
+          "keyPoints": ["Breathing exercises", "Practice preparation", "Positive visualization", "Experience building", "Stress management"]
+        },
+        {
+          "id": "ps-4",
+          "question": "Describe your approach to storytelling in presentations.",
+          "level": "Intermediate",
+          "type": "behavioral",
+          "keyPoints": ["Narrative structure", "Emotional connection", "Relevant examples", "Audience relevance", "Story arc"]
+        },
+        {
+          "id": "ps-5",
+          "question": "How do you adapt your presentation style for different audiences?",
+          "level": "Advanced",
+          "type": "behavioral",
+          "keyPoints": ["Audience analysis", "Content customization", "Language adaptation", "Technical level adjustment", "Cultural sensitivity"]
+        },
+        {
+          "id": "ps-6",
+          "question": "What's your approach to handling Q&A sessions after presentations?",
+          "level": "Advanced",
+          "type": "behavioral",
+          "keyPoints": ["Question anticipation", "Clear communication", "Handling difficult questions", "Time management", "Follow-up preparation"]
+        }
+      ]
+    },
+    {
+      "id": "communication-boost",
+      "title": "Communication Boost",
+      "description": "Enhance verbal and written communication skills",
+      "tags": ["Communication", "Writing", "Speaking"],
+      "questions": [
+        {
+          "id": "cb-1",
+          "question": "How do you ensure clarity in your communication?",
+          "level": "Beginner",
+          "type": "behavioral"
+        },
+        {
+          "id": "cb-2",
+          "question": "What's your approach to active listening?",
+          "level": "Beginner",
+          "type": "behavioral"
+        },
+        {
+          "id": "cb-3",
+          "question": "How do you tailor communication for different stakeholders?",
+          "level": "Intermediate",
+          "type": "behavioral"
+        },
+        {
+          "id": "cb-4",
+          "question": "Describe your written communication best practices.",
+          "level": "Intermediate",
+          "type": "behavioral"
+        },
+        {
+          "id": "cb-5",
+          "question": "How do you handle difficult conversations?",
+          "level": "Advanced",
+          "type": "behavioral"
+        },
+        {
+          "id": "cb-6",
+          "question": "What's your approach to cross-cultural communication?",
+          "level": "Advanced",
+          "type": "behavioral"
+        }
+      ]
+    },
+    {
+      "id": "leadership-skills",
+      "title": "Leadership Skills",
+      "description": "Team leadership, decision making, strategic thinking",
+      "tags": ["Leadership", "Management", "Strategy"],
+      "questions": [
+        {
+          "id": "ls-1",
+          "question": "What's your leadership philosophy?",
+          "level": "Beginner",
+          "type": "behavioral"
+        },
+        {
+          "id": "ls-2",
+          "question": "How do you motivate team members?",
+          "level": "Beginner",
+          "type": "behavioral"
+        },
+        {
+          "id": "ls-3",
+          "question": "Describe your approach to decision making as a leader.",
+          "level": "Intermediate",
+          "type": "behavioral"
+        },
+        {
+          "id": "ls-4",
+          "question": "How do you handle underperforming team members?",
+          "level": "Intermediate",
+          "type": "behavioral"
+        },
+        {
+          "id": "ls-5",
+          "question": "What's your approach to strategic planning and vision setting?",
+          "level": "Advanced",
+          "type": "behavioral"
+        },
+        {
+          "id": "ls-6",
+          "question": "How do you develop leadership skills in others?",
+          "level": "Advanced",
+          "type": "behavioral"
+        }
+      ]
+    },
+    {
+      "id": "negotiation-skills",
+      "title": "Negotiation Skills",
+      "description": "Business negotiation, conflict resolution, deal making",
+      "tags": ["Negotiation", "Business", "Conflict"],
+      "questions": [
+        {
+          "id": "ns-1",
+          "question": "What's your approach to preparing for negotiations?",
+          "level": "Beginner",
+          "type": "behavioral"
+        },
+        {
+          "id": "ns-2",
+          "question": "How do you identify win-win solutions in negotiations?",
+          "level": "Beginner",
+          "type": "behavioral"
+        },
+        {
+          "id": "ns-3",
+          "question": "Describe your approach to handling objections during negotiations.",
+          "level": "Intermediate",
+          "type": "behavioral"
+        },
+        {
+          "id": "ns-4",
+          "question": "How do you maintain relationships while negotiating?",
+          "level": "Intermediate",
+          "type": "behavioral"
+        },
+        {
+          "id": "ns-5",
+          "question": "What's your approach to cross-cultural negotiations?",
+          "level": "Advanced",
+          "type": "behavioral"
+        },
+        {
+          "id": "ns-6",
+          "question": "How do you handle high-pressure negotiation situations?",
+          "level": "Advanced",
+          "type": "behavioral"
+        }
+      ]
+    },
+    {
+      "id": "time-management",
+      "title": "Time Management",
+      "description": "Productivity techniques, prioritization, work-life balance",
+      "tags": ["Productivity", "Planning", "Organization"],
+      "questions": [
+        {
+          "id": "tm-1",
+          "question": "How do you prioritize tasks and manage deadlines?",
+          "level": "Beginner",
+          "type": "behavioral"
+        },
+        {
+          "id": "tm-2",
+          "question": "What time management techniques do you use?",
+          "level": "Beginner",
+          "type": "behavioral"
+        },
+        {
+          "id": "tm-3",
+          "question": "How do you handle multiple competing priorities?",
+          "level": "Intermediate",
+          "type": "behavioral"
+        },
+        {
+          "id": "tm-4",
+          "question": "Describe your approach to work-life balance.",
+          "level": "Intermediate",
+          "type": "behavioral"
+        },
+        {
+          "id": "tm-5",
+          "question": "How do you deal with procrastination and maintain productivity?",
+          "level": "Advanced",
+          "type": "behavioral"
+        },
+        {
+          "id": "tm-6",
+          "question": "What's your approach to long-term planning and goal setting?",
+          "level": "Advanced",
+          "type": "behavioral"
+        }
+      ]
+    },
+    {
+      "id": "stress-management",
+      "title": "Stress Management",
+      "description": "Coping strategies, mindfulness, work-life balance",
+      "tags": ["Wellness", "Mindfulness", "Balance"],
+      "questions": [
+        {
+          "id": "sm-1",
+          "question": "How do you identify and manage stress triggers?",
+          "level": "Beginner",
+          "type": "behavioral"
+        },
+        {
+          "id": "sm-2",
+          "question": "What techniques do you use for stress relief?",
+          "level": "Beginner",
+          "type": "behavioral"
+        },
+        {
+          "id": "sm-3",
+          "question": "How do you maintain work-life balance during stressful periods?",
+          "level": "Intermediate",
+          "type": "behavioral"
+        },
+        {
+          "id": "sm-4",
+          "question": "Describe your approach to mindfulness and mental wellness.",
+          "level": "Intermediate",
+          "type": "behavioral"
+        },
+        {
+          "id": "sm-5",
+          "question": "How do you help team members manage stress?",
+          "level": "Advanced",
+          "type": "behavioral"
+        },
+        {
+          "id": "sm-6",
+          "question": "What's your approach to preventing burnout?",
+          "level": "Advanced",
+          "type": "behavioral"
+        }
+      ]
+    },
+    {
+      "id": "networking-skills",
+      "title": "Networking Skills",
+      "description": "Professional networking, relationship building, personal branding",
+      "tags": ["Networking", "Branding", "Relationships"],
+      "questions": [
+        {
+          "id": "ns-1",
+          "question": "How do you approach professional networking?",
+          "level": "Beginner",
+          "type": "behavioral"
+        },
+        {
+          "id": "ns-2",
+          "question": "What's your approach to building professional relationships?",
+          "level": "Beginner",
+          "type": "behavioral"
+        },
+        {
+          "id": "ns-3",
+          "question": "How do you maintain your professional network over time?",
+          "level": "Intermediate",
+          "type": "behavioral"
+        },
+        {
+          "id": "ns-4",
+          "question": "Describe your approach to personal branding.",
+          "level": "Intermediate",
+          "type": "behavioral"
+        },
+        {
+          "id": "ns-5",
+          "question": "How do you leverage social media for professional networking?",
+          "level": "Advanced",
+          "type": "behavioral"
+        },
+        {
+          "id": "ns-6",
+          "question": "What's your approach to networking at conferences and events?",
+          "level": "Advanced",
+          "type": "behavioral"
+        }
+      ]
+    },
+    {
+      "id": "critical-thinking",
+      "title": "Critical Thinking",
+      "description": "Problem solving, analytical thinking, decision making",
+      "tags": ["Analysis", "Problem Solving", "Logic"],
+      "questions": [
+        {
+          "id": "ct-1",
+          "question": "How do you approach complex problem solving?",
+          "level": "Beginner",
+          "type": "behavioral"
+        },
+        {
+          "id": "ct-2",
+          "question": "What techniques do you use for analytical thinking?",
+          "level": "Beginner",
+          "type": "behavioral"
+        },
+        {
+          "id": "ct-3",
+          "question": "How do you evaluate information and sources critically?",
+          "level": "Intermediate",
+          "type": "behavioral"
+        },
+        {
+          "id": "ct-4",
+          "question": "Describe your approach to logical reasoning and argumentation.",
+          "level": "Intermediate",
+          "type": "behavioral"
+        },
+        {
+          "id": "ct-5",
+          "question": "How do you handle uncertainty and ambiguous situations?",
+          "level": "Advanced",
+          "type": "behavioral"
+        },
+        {
+          "id": "ct-6",
+          "question": "What's your approach to creative problem solving?",
+          "level": "Advanced",
+          "type": "behavioral"
+        }
+      ]
+    }
+  ]
+}

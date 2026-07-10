@@ -1,0 +1,46 @@
+{
+  "sections": [
+    {
+      "role": "Software Engineer",
+      "level": "Beginner",
+      "questionsAnswered": 2,
+      "totalQuestions": 2,
+      "timeSpent": "03:17",
+      "completedAt": "2026-04-03T15:54:03.865Z",
+      "sectionCode": "P87KW1GL",
+      "averageTimePerQuestion": "01:38",
+      "averageWordsPerMinute": 0,
+      "questionTranscripts": [
+        {
+          "questionId": "se-1",
+          "question": "Tell me about yourself and your experience in software development.",
+          "transcript": "So hello. I'm Aman, and I have experience of software engineering for about four years. And I have managed to develop a problem solving skill throughout my ex experience in multiple job roles.",
+          "role": "Software Engineer",
+          "level": "Beginner",
+          "mentioned": [
+            "Experience overview"
+          ],
+          "notMentioned": [
+            "Professional introduction",
+            "Career highlights"
+          ],
+          "ai_analysis": "You mentioned your years of experience and problem-solving skill, which is a good start. However, to make a stronger first impression, next time include a brief professional introduction and a specific career highlight or key achievement to showcase your impact."
+        },
+        {
+          "questionId": "se-2",
+          "question": "What programming languages are you most comfortable with and why?",
+          "transcript": "There are many programming language I'm comfortable with, like, a front end, I use React plus Angular, and in the back end, I use FastAPI.",
+          "role": "Software Engineer",
+          "level": "Beginner",
+          "mentioned": [
+            "Language proficiency"
+          ],
+          "notMentioned": [
+            "Technical preferences",
+            "Reasoning skills"
+          ],
+          "ai_analysis": "You mentioned your language proficiency, which is a good start. However, you didn’t explain your *technical preferences* or *reasoning* for choosing them, which would show deeper understanding. Next time, briefly explain *why* you prefer a language or framework (e.g., for productivity, performance, or ecosystem)."
+        }
+      ],
+      "answerQuality": 33
+    },
